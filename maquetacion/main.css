@@ -169,8 +169,8 @@
 
 /* MAIN CONTENT */
 /* .main-content {
-    background: red;
-}  */
+    background-color: var(--dark);
+}   */
 
 .main-content .main-img .img {
     display: flex;
@@ -208,6 +208,7 @@
 
 .main-content .bottom-content .info {
     margin-left: 15px;
+    margin-right: 15px;
 }
 
 .main-content .bottom-content .info .personal-info {
@@ -276,5 +277,104 @@
     margin-top: 30px;
     align-items: center;
     justify-content: center;
+}
+
+.main-content .bottom-content .bottom-content-right .info .title-right {
+    margin-top: 50px;
+    margin-left: 19%;
+    
+}
+
+.main-content .bottom-content .bottom-content-right .info .meet-rest-hour {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: flex-start;
+    margin-left: 50px;
+    text-align: center;
+}
+
+.main-content .bottom-content .bottom-content-right .info .meet-rest-hour .days {
+    margin-right: 15px;
+}
+
+.main-content .bottom-content .bottom-content-right .info .meet-rest-hour .hours {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.main-content .bottom-content .bottom-content-right .info .meet-rest-hour .minutes {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.main-content .bottom-content .bottom-content-right .info .progress-bar-bottom {
+    margin-top: 30px;
+}
+
+.main-content .bottom-content .bottom-content-right .info .progress-bar-bottom .porcentage {
+    margin-left: 160px;
+}
+
+.main-content .bottom-content .bottom-content-right .enter {
+    display: inline;
+    margin-left: 27px;
+    margin-top: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+/* SIDEBAR DERECHO */
+.news {
+    position: fixed;
+    background: var(--back);
+    height: 100%;
+    width: 25%;
+    margin-left: 75%;
+}
+
+.news .image-right {
+    /* display: flex; */
+    margin-top: 12vh;
+    margin-left: 14px;
+    margin-right: 14px;   
+}
+
+.news .image-right img {
+    /* display: flex; */
+    border-radius: 3px;
+    height: 15rem;
+    margin-left: 10px;
+}
+
+.news .image-right .text-in {
+    margin-top: -70px;
+    margin-left: 20px;
+}
+
+.news .prox-meets {
+    margin-left: 24px;
+}
+
+.news .prox-meets .meets {
+    display: flex;
+    flex-direction: column;
+}
+
+.news .prox-meets .meets .meets-into {
+    display: flex;
+    height: 70px;
+    margin-bottom: 10px;
+}
+
+.news .prox-meets .meets .meets-into .image-meets {
+    width: 80px;
+    border-radius: 5px;
+}
+
+.news .prox-meets .meets .meets-into .specs {
+    margin-left: 10px;
 }
 
